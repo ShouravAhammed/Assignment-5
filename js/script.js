@@ -54,7 +54,7 @@ for (const seatClick of seatClicks) {
     })
 }
 
-// input filed
+// input filed related part
 const inputField = document.getElementById('input-field');
 inputField.addEventListener('keyup', function (e) {
     const text = e.target.value;
