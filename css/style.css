@@ -1,0 +1,33 @@
+/* Fonts from Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+.font-raleway{
+    font-family: "Raleway", sans-serif;
+}
+.font-inter{
+    font-family: "Inter", sans-serif;
+}
+
+.banner{
+    background-image: url(../images/banner.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+li{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    appearance: none; 
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
